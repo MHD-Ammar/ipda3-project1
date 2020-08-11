@@ -1,0 +1,215 @@
+body{
+    font-family: 'Cairo', sans-serif;
+}
+/* navBAr*/
+.navbar-brand img{
+    height: 70px;
+}
+.nav-item{
+    text-align: left;
+
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(90,185,233)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+button.navbar-toggler:focus{
+    outline: none ;
+}
+/*slogan*/
+.slogan-img{
+    background-image: url(../imgs/header-side.jpg);
+    background-repeat: no-repeat;
+}
+.slogan img{
+    margin-top: 50px;
+    height: 600px ;
+    max-width: 100%;
+
+}
+.slogan-img h1{
+    margin: 200px 20px;
+    font-size: 50px;
+    
+
+}
+
+/*About-us*/
+.about-us{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    margin: 20px;
+}
+.about-us img{
+    height: 600px;
+    max-width: 100%;
+}
+.about-us hr{
+    width: 100px;
+    color: #3aade6;
+    height: 10px;
+}
+.line{
+    width: 100px;
+    background-color: #3aade6;
+    height: 3px;
+    margin: 10px auto 100px auto ;
+}
+.text{
+    padding-top: 100px !important;
+}
+.text h3{
+    line-height: 150% !important;
+
+}
+
+/*for you*/
+.for-you{
+    background-image: url(../imgs/we-offer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.owl-carousel{
+    padding: 5% 7% 0 7%;
+    }
+
+.card-img-top.card-img-for-you{
+    padding: 40px 70px 20px 70px;
+    height: 180px;
+}
+.card.card-for-you{
+    margin: 5%;
+    border-radius: 10%;
+    padding: 5px;
+    height: 450px;
+}
+.owl-nav{
+    text-align: center;
+    font-size: 40px;
+}
+.owl-prev, .owl-next{
+    margin:20px 30px  !important; 
+}
+.owl-next:focus,.owl-prev:focus{
+    outline: none;
+}
+.owl-carousel a{
+    text-decoration: none;
+}
+.card h5{
+    text-align: center;
+}
+.card p{
+    color: black;
+}
+
+
+/*our work*/
+
+.our-work{
+    background-image: url(../imgs/bg30-Ar1web.gif);
+}
+.card.card-our-work{
+    border-radius: 10%;
+    width: 20rem;
+    height: 350px;
+    margin:50px 10px;
+    text-align: center;
+}
+
+
+.card-img-top.card-img-our-work{
+    border-radius: 10%;
+    height: 275px;
+}
+
+.our-work-btn{
+    width: 300px;
+    height: 50px;
+    margin: 50px ;
+    border-radius: 25px;
+    color: white;
+    background-color:#233142 ;
+
+}
+.btn-div{
+    width: 100%;
+    text-align: center;
+}
+.news-contaier{
+    padding: 100px 0 0px;
+}
+
+
+/*news*/
+.card-news{
+    width:  100%;
+    border-radius: 30px;
+    margin-bottom:40px;
+}
+
+.news-img{
+    border-radius: 30px
+}
+.news-btn{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color:#233142 ;
+}
+.fa.fa-eye.news-seen{
+    text-align: left !important;
+    font-size: 20px;
+    margin-right: 52%;
+}
+
+
+/* Our Customer*/
+.our-customer{
+    background-image: url(../imgs/our-client-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.our-customer-carousel{
+    padding: 5% 13% 0 13%;
+}
+
+/*footer*/
+
+.footer{
+    background-image: url(../imgs/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer-img{
+    margin: 15% 10%;
+    height: 300px;
+}
+
+.footer-content{
+    padding: 30% 0;
+    color: white;
+}
+.footer-content img{
+width: 40%;
+margin-bottom: 7%;
+font-size: 10;
+font-weight: lighter;
+}
+.footer-content i{
+    color: white;
+    font-size: 30px;
+    margin: 0 15px;
+}
