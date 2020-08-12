@@ -21,7 +21,7 @@ $(document).ready(function(){
                 loop:true,
             }
         }
-    })
+    });
     
     $('.owl-carousel.our-customer-carousel').owlCarousel({
         loop:true,
@@ -44,7 +44,11 @@ $(document).ready(function(){
                 loop:true
             }
         }
-    })
+    });
 
 
-  });
+ /////
+ 
+
+ 
+  })

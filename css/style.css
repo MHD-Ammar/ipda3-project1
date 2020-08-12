@@ -114,6 +114,13 @@ button.navbar-toggler:focus{
 
 .our-work{
     background-image: url(../imgs/bg30-Ar1web.gif);
+    padding-top: 20px;
+}
+.our-work>.container>.row a{
+    text-decoration: none;
+}
+.our-work a{
+    text-decoration: none;
 }
 .card.card-our-work{
     border-radius: 10%;
@@ -214,9 +221,7 @@ font-weight: lighter;
 
 
 /* our work page*/
-.our-work{
-    padding-top: 25px;
-}
+
 .pagination{
     margin: 0;
     padding-bottom: 5%;
@@ -241,3 +246,43 @@ font-weight: lighter;
 .news-h1{
     margin-top: 2%;
 }
+
+/*one app page*/
+.over-view{
+    padding: 30px;
+    width: 100%;
+}
+.over-view img{
+    width: 40%;
+    margin: 3% 30%;
+}
+
+.details{
+    background-image: url(../imgs/details-bg.png);
+    text-align: center;
+    padding: 6% 4%;
+    margin:3% 0;
+    font-size: 25px;
+    color: white;
+}
+/*carousel2 
+
+
+*/
+
+
+
+/*news details page*/
+.news-details{
+    background-image: url(../imgs/bg30-Ar1web.gif);
+}
+.news-details-card img{
+    width: 50%;
+    margin: 4% 25%;
+
+}
+.news-details-card p{
+    font-size: 170%;
+    line-height: 250%;
+}
+
