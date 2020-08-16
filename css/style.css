@@ -1,5 +1,5 @@
 *{
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Cairo', sans-serif ;
 }
 /* navBAr*/
 .navbar-brand img{
@@ -25,13 +25,12 @@ button.navbar-toggler:focus{
 }
 .slogan img{
     margin-top: 50px;
-    height: 600px ;
     max-width: 100%;
 
 }
 .slogan-img h1{
     margin: 200px 20px;
-    font-size: 50px;
+    font-size: 40px;
     
 
 }
@@ -44,9 +43,9 @@ button.navbar-toggler:focus{
 .header{
     text-align: center;
     margin: 20px;
+    font-family: 'Cairo', sans-serif !important;
 }
 .about-us img{
-    height: 600px;
     max-width: 100%;
 }
 .about-us hr{
@@ -58,12 +57,12 @@ button.navbar-toggler:focus{
     width: 100px;
     background-color: #3aade6;
     height: 3px;
-    margin: 10px auto 100px auto ;
+    margin: 10px auto 70px auto ;
 }
 .text{
     padding-top: 100px !important;
 }
-.text h3{
+.text h4{
     line-height: 150% !important;
 
 }
@@ -76,7 +75,7 @@ button.navbar-toggler:focus{
     background-position: center;
 }
 .owl-carousel{
-    padding: 5% 7% 0 7%;
+    padding-top: 5%;
     }
 
 .card-img-top.card-img-for-you{
@@ -124,7 +123,7 @@ button.navbar-toggler:focus{
 }
 .card.card-our-work{
     border-radius: 10%;
-    width: 100%;
+    max-width: 100%;
     margin:50px 10px;
     text-align: center;
 }
@@ -135,7 +134,8 @@ button.navbar-toggler:focus{
 }
 
 .our-work-btn{
-    width: 300px;
+    width: 25%;
+    min-width: 200px;
     height: 50px;
     margin: 50px ;
     border-radius: 25px;
@@ -144,7 +144,7 @@ button.navbar-toggler:focus{
 
 }
 .btn-div{
-    width: 100%;
+    max-width: 100%;
     text-align: center;
 }
 .news-contaier{
@@ -164,16 +164,15 @@ button.navbar-toggler:focus{
 }
 .news-btn{
     display: inline-block;
-    width: 120px;
+    min-width:120px;
     height: 40px;
     border-radius: 25px;
     color: white;
     background-color:#233142 ;
 }
 .fa.fa-eye.news-seen{
-    text-align: left !important;
+    float: left;
     font-size: 20px;
-    margin-right: 52%;
 }
 
 
@@ -210,8 +209,6 @@ button.navbar-toggler:focus{
 .footer-content img{
 width: 40%;
 margin-bottom: 7%;
-font-size: 10;
-font-weight: lighter;
 }
 .footer-content i{
     color: white;
@@ -249,12 +246,12 @@ font-weight: lighter;
 
 /*one app page*/
 .over-view{
-    padding: 30px;
-    width: 100%;
+    padding: 4%;
 }
 .over-view img{
-    width: 40%;
-    margin: 3% 30%;
+    display: block;
+    margin: 3% auto;
+    width: 50%;
 }
 
 .details{
@@ -262,7 +259,7 @@ font-weight: lighter;
     text-align: center;
     padding: 6% 4%;
     margin:3% 0;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 /*carousel2 
@@ -277,8 +274,6 @@ font-weight: lighter;
   }
   
   .card-carousel .my-card {
-    height: 20rem;
-    width: 12rem;
     position: relative;
     z-index: 1;
     -webkit-transform: scale(0.6) translateY(-2rem);
@@ -318,10 +313,11 @@ font-weight: lighter;
     pointer-events: auto;
     transition: 1s;
   }
-
+.card-carousel{
+    overflow: hidden;
+}
 .my-card img{
-height: 110%;
-width: 110%;
+    max-width: 115%;
 }
 
 
@@ -339,7 +335,8 @@ width: 110%;
 
 }
 .news-details-card p{
-    font-size: 170%;
+    font-size: 140%;
     line-height: 250%;
+    margin: 20px;
 }
 
